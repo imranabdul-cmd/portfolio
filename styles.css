@@ -260,6 +260,37 @@ h3 {
   color: var(--muted);
 }
 
+.contact-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-meta .social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-meta .social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(24, 20, 18, 0.14);
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.contact-meta .social-links a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(24, 20, 18, 0.12);
+}
+
 .hero-visual {
   position: relative;
   min-height: 640px;
